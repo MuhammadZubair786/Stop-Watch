@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+   <!-- CSS only -->
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
+
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body style="background-color: #AEB6BF;">
+    <br>
+    
+    <div class="container text-center ml-10 "  style="margin-top: 100px;border: 10px solid #FC083C  ; width: 500px;background-color: #154360;height: 400px;border-radius: 80px;" id="large" >
+        <br>
+        
+        <div class="row">
+            <div class="col col-12" >
+                <img src="Images/i2.png" style="width: 80px;">
+                <h1  style="display: inline-block;background-color: azure;margin-top:0px;">Stop Watch</h1>
+                <img src="Images/i2.png" style="width: 80px;">
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col col-lg-12 col-sm-12 col-12" >
+                <h1 id="min">0</h1><b style="font-size:50px;color: red;"> : </b>
+                <h1 id="sec">0</h1><b style="font-size:50px;color: red;"> : </b>
+                <h1 id="msec">0</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="sbtn" onclick="start()" >Start</button>
+                <button type="button" onclick="stop()" class="btn btn-success" id="stbtn" style="margin-left: 20px;">Pause</button>
+                <button type="button" onclick="reset()" class="btn btn-danger" id="rbtn" style="margin-left: 20px;">Reset</button>
+                
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col" >
+                <h3 id="get" style="color: white;text-shadow: 2px 2px blue;"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" >
+                <h4 style="color: white;text-shadow: 2px 2px red;">Made By Muhammad Zubair Minhas</h4>
+            </div>
+        </div>
+    </div>
+
+
+    <div class="container text-center ml-10"  style="margin-top: 50px;border: 10px solid #FC083C ;width: 100%;height: 400px;background-color: #154360 ;;border-radius: 80px;" id="small" >
+        <br>
+        
+        <div class="row">
+            <div class="col col-12" >
+                <img src="Images/i2.png" style="width: 80px;">
+                <h1  style="display: inline-block;background-color: azure;margin-top:0px;">Stop Watch</h1>
+                <img src="Images/i2.png" style="width: 80px;">
+            </div>
+        </div>
+        <div class="row" >
+            <div class="col " >
+                <h1 id="min2">0</h1><b style="font-size:50px;color: red;"> : </b>
+                <h1 id="sec2">0</h1><b style="font-size:50px;color: red;"> : </b>
+                <h1 id="msec2">0</h1>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col">
+                <button type="button" class="btn btn-primary" id="sbtn2" onclick="start2()" >Start</button>
+                <button type="button" onclick="stop2()" class="btn btn-success" id="stbtn2" style="margin-left: 20px;">Pause</button>
+                <button type="button" onclick="reset2()" class="btn btn-danger" id="rbtn2" style="margin-left: 20px;">Reset</button>
+                
+            </div>
+        
+        </div>
+        <br>
+        <div class="row">
+            <div class="col" >
+                <h3 id="get2" style="color: white;text-shadow: 2px 2px blue;"></h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col" >
+                <h4 style="color: white;text-shadow: 2px 2px red;">Made By Muhammad Zubair Minhas</h4>
+            </div>
+        </div>
+    </div>
+    
+
+   
+
+    <script src="app.js">
+
+    </script>
+
+    <!-- JS, Popper.js, and jQuery -->
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js" integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous"></script>
+
+</body>
+</html>

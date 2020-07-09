@@ -1,0 +1,43 @@
+/* div{
+    text-align: center;
+} */
+#min,#sec,#msec{
+    
+    display: inline-block;
+    
+    width: 100px;
+    background-color: #EAFC08;
+    color: blue;
+}
+
+#min2,#sec2,#msec2{
+    
+    display: inline-block;
+    
+    width: 100px;
+    background-color: #EAFC08;
+    color: blue;
+}
+
+div button{
+    background-color:  rgb(223, 11, 142);
+    color: white;
+    width: 110px;
+    font-size: 20px;
+    
+}
+
+@media screen and (max-width: 600px) {
+    #large{
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 600px) {
+    #small{
+        display: none;
+    }
+}
+
+
